@@ -12,46 +12,84 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <ul>
-      <li>
-        <span class="material-symbols-outlined"> home </span>
-        Home
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> person </span>
-        Profile
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> mail </span>
-        Messages
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> history </span>
-        Histor
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> task </span>
-        Tasks
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> forum </span>
-        Communities
-      </li>
-    </ul>
+    <div class="container-sidebar">
+      <div class="header-sidebar">
+        <span class="material-symbols-outlined"> dashboard </span>
+        Dashboard
+      </div>
+      <ul>
+        <li><span class="material-symbols-outlined"> home </span>Home</li>
+        <li><span class="material-symbols-outlined"> person </span>Profile</li>
+        <li><span class="material-symbols-outlined"> mail </span>Messages</li>
+        <li><span class="material-symbols-outlined"> history </span>History</li>
+        <li><span class="material-symbols-outlined"> task </span>Tasks</li>
+        <li>
+          <span class="material-symbols-outlined"> forum </span>Communities
+        </li>
+      </ul>
 
-    <ul>
-      <li>
-        <span class="material-symbols-outlined"> settings </span>
-        Settings
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> contact_support </span>
-        Support
-      </li>
-      <li>
-        <span class="material-symbols-outlined"> security </span>
-        Privacy
-      </li>
-    </ul>
+      <div class="container-settings">
+        <ul>
+          <li>
+            <span class="material-symbols-outlined"> settings </span>Settings
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> contact_support </span
+            >Support
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> security </span>Privacy
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-main-header">
+      <div class="container-header">
+        <div class="container-header-first">
+          <div class="container-header-items">
+            <span class="material-symbols-outlined header-icon-font">
+              search
+            </span>
+            <input type="text" id="search" />
+          </div>
+          <div class="container-header-items">
+            <span class="material-symbols-outlined header-icon-font">
+              notifications
+            </span>
+            <div class="profile">
+              <div id="name-header-first">learning-SoftDev</div>
+              <img
+                src="./img/profile.png"
+                alt="Image failed to load"
+                id="icon-header-first"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container-header-second">
+          <div class="container-header-items">
+            <img
+              src="./img/profile.png"
+              alt="Image failed to load"
+              id="icon-header-second"
+            />
+            <div class="name-header-second">
+              <div id="name-header-second1">Hi there,</div>
+              <div id="name-header-second2">learning-SoftDev (@lSDev)</div>
+            </div>
+          </div>
+          <div class="container-header-items">
+            <button type="button" title="This doesn't do anything.">New</button>
+            <button type="button" title="This doesn't do anything.">
+              Upload
+            </button>
+            <button type="button" title="This doesn't do anything.">
+              Share
+            </button>
+          </div>
+        </div>
+      </div>
+      <main></main>
+    </div>
   </body>
 </html>
