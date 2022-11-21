@@ -4,6 +4,7 @@
   --sidebarColor: #055a82;
   --grayContentColor: #e7e5e4;
   --grayContentColor2: #f9f9f9;
+  --grayContentColor3: #555352;
   --boxShadow: 4px 5px 5px 0px rgb(0 0 0 / 50%);
   --sidebarWidth: 280px;
   --announcementHeight: 420px;
@@ -104,6 +105,11 @@ button {
   border: 0;
 }
 
+button:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
 .clicked {
   font-weight: bold;
   transition: 0.5s;
@@ -176,7 +182,7 @@ button {
 }
 
 #header-buttons {
-  gap: 5px;
+  gap: 15px;
 }
 
 li:hover {
@@ -231,7 +237,7 @@ main > div > p {
   background-color: var(--grayContentColor2);
   border-radius: 12px;
   padding: 20px;
-  padding-top: 0;
+  padding-top: 10px;
   border-left: 0.6rem solid var(--sidebarColor);
   display: flex;
   flex-direction: column;
@@ -242,6 +248,10 @@ main > div > p {
   border: 0;
   margin-right: 40px;
   height: calc(var(--announcementHeight) - 80px);
+  background-color: var(--grayContentColor2);
+  border-radius: 12px;
+  padding: 30px;
+  padding-top: 20px;
 }
 
 .icon-hi {
@@ -249,13 +259,13 @@ main > div > p {
 }
 
 .project-item-text {
-  color: #78716c;
+  color: var(--grayContentColor3);
   margin-top: 0;
   font-size: 17px;
 }
 
 .project-item-icons {
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
 }
 
@@ -275,4 +285,20 @@ a:active {
   text-decoration: none;
   color: inherit;
   font-size: inherit;
+}
+
+.announcements-text {
+  color: var(--grayContentColor3);
+  font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.container-announcements-headers {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 10px;
 }
