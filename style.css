@@ -251,6 +251,7 @@ main > div > p {
 .project-item-text {
   color: #78716c;
   margin-top: 0;
+  font-size: 17px;
 }
 
 .project-item-icons {
@@ -265,4 +266,13 @@ i {
 
 i:hover {
   transform: rotate(360deg) scale(1.4);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
 }
