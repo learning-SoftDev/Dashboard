@@ -20,11 +20,10 @@
 body {
   margin: 0;
   background-color: var(--grayContentColor);
-  min-height: 100vh;
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: auto 1fr;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
   grid-template-areas:
@@ -198,15 +197,14 @@ li:hover {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 350px;
+  grid-template-columns: 1fr 300px;
   grid-template-rows: repeat(2, var(--announcementHeight));
   grid-template-areas:
     'projects announcements'
     'projects trending';
-
   overflow: auto;
-  margin-left: 30px;
   grid-area: main;
+  padding: 35px;
   margin-top: 6px;
 }
 
@@ -218,6 +216,7 @@ main {
   gap: 30px;
   margin-top: 30px;
   margin-right: 50px;
+  padding-bottom: 2rem;
 }
 
 .container-announcements {
@@ -231,6 +230,7 @@ main {
 main > div > p {
   font-weight: bold;
   font-size: 1.2rem;
+  margin-top: 0;
 }
 
 .project-item {
@@ -238,7 +238,7 @@ main > div > p {
   border-radius: 12px;
   padding: 20px;
   padding-top: 10px;
-  border-left: 0.6rem solid var(--sidebarColor);
+  border-left: 0.6rem solid #c56a55;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -246,7 +246,6 @@ main > div > p {
 
 .announcements {
   border: 0;
-  margin-right: 40px;
   height: calc(var(--announcementHeight) - 80px);
   background-color: var(--grayContentColor2);
   border-radius: 12px;
@@ -301,4 +300,8 @@ a:active {
   font-size: 0.8rem;
   font-weight: bold;
   margin-top: 10px;
+}
+
+img {
+  border-radius: 100%;
 }
