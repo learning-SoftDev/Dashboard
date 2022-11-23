@@ -266,6 +266,8 @@ main > div > p {
 .project-item-icons {
   font-size: 40px;
   text-align: right;
+  display: flex;
+  justify-content: space-between;
 }
 
 i {
@@ -304,4 +306,12 @@ a:active {
 
 img {
   border-radius: 100%;
+}
+
+.github-live {
+  font-size: inherit;
+}
+
+.icon-tech-stack {
+  height: 40px;
 }
