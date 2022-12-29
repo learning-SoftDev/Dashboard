@@ -289,7 +289,7 @@ a:active {
 
 .announcements-text {
   color: var(--grayContentColor3);
-  font-size: 13px;
+  font-size: 0.8rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -308,17 +308,23 @@ img {
   height: 2.5rem;
 }
 
-h3 {
+.project-item-headers {
   margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-h5 {
+.trending-announcement-headers {
   margin: 0;
   margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-h2 {
+.main-headers {
   margin-left: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .hiddenMenu,
