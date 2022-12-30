@@ -10,3 +10,7 @@ Things I learned:<br>
 - How to insert icons from fa and google fonts<br>
 
 Live: https://learning-softdev.github.io/Dashboard/
+
+Future plans for this app:
+
+- I, who have the admin access, will be able to easily add and store future projects in here just by clicking an add button. Currently I need to manually add it to the html file.
