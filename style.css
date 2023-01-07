@@ -227,6 +227,11 @@ button:hover {
   gap: 15px;
 }
 
+.sidebar-contents > ul,
+.sidebar-contents > div {
+  flex-grow: 1;
+}
+
 .container-main-header {
   display: flex;
   flex-direction: column;
@@ -427,7 +432,6 @@ img {
   }
   .container-settings {
     margin: 0;
-    margin-left: 1.5rem;
   }
   .container-trending-announcement {
     margin: 30px;
