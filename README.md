@@ -14,3 +14,4 @@ Live: https://learning-softdev.github.io/Dashboard/
 # Future Improvements
 
 - I, who have the admin access, will be able to easily add and store future projects in here just by clicking an add button. Currently I need to manually add it to the html file.
+- Add a search function using the name of the tool and a filter combo box based on the technologies related to the tool.
