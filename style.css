@@ -434,16 +434,16 @@ img {
     margin: 0;
   }
   .container-trending-announcement {
-    margin: 30px;
+    margin: 10px;
     margin-top: 0;
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #searchbox {
     width: 200px;
   }
-}
+} */
 
 @media (max-width: 520px) {
   :root {
@@ -451,5 +451,8 @@ img {
   }
   #searchbox {
     display: none;
+  }
+  main {
+    padding-left: 15px;
   }
 }
