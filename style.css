@@ -350,6 +350,13 @@ img {
   height: 2.5rem;
 }
 
+.tech-stack {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+}
+
 .project-item-headers {
   margin-top: 10px;
   font-weight: bold;
