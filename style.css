@@ -106,17 +106,25 @@ li {
   top: 0;
 }
 
+.sidebar-contents {
+  padding-top: 15px;
+}
+
 .container-settings {
   margin-top: 50px;
 }
 
 .header-sidebar {
-  padding: 20px;
   font-size: 2rem;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #searchbox,
@@ -364,6 +372,10 @@ img {
 
 .icon-tech-stack {
   height: 2.5rem;
+}
+
+#sharepoint {
+  height: 1.8rem;
 }
 
 .tech-stack {
