@@ -54,7 +54,8 @@ body {
   margin: 0;
   grid-template-areas:
     'sidebar header'
-    'sidebar main';
+    'sidebar main'
+    'sidebar msgComingSoon';
 }
 
 #header {
@@ -431,10 +432,27 @@ img {
 }
 
 .msg-content {
-  font-size: 1.5rem;
-  padding: 20px;
+  font-size: 2.5rem;
+  padding: 3rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.568);
+  color: rgb(0 0 0 / 71%);
+  grid-column: msgComingSoon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.msg-content > img {
+  width: 20rem;
+  margin-bottom: 2rem;
+  border-radius: 5%;
+}
+
+.msg-content-sub {
+  font-size: 1rem;
+  font-style: italic;
 }
 
 /* media queries */
