@@ -16,7 +16,7 @@ sidebarItems.forEach((item) =>
       // document.querySelector('.main-container').classList.add('hidden');
       // document.querySelector('.container-trending-announcement').classList.add('hidden');
       document.querySelector('main').classList.add('hidden');
-      document.querySelector('.msg-content').classList.remove('hidden');
+      document.querySelector('.msg-content-container').classList.remove('hidden');
 
       // // If the msgContentDiv already exist, then don't create a new div, just edit the text.
       // if (document.querySelector('.msg-content-sub') === null) {
@@ -42,7 +42,7 @@ sidebarItems.forEach((item) =>
       // document.querySelector('.main-container').classList.remove('hidden');
       // document.querySelector('.container-trending-announcement').classList.remove('hidden');
       document.querySelector('main').classList.remove('hidden');
-      document.querySelector('.msg-content').classList.add('hidden');
+      document.querySelector('.msg-content-container').classList.add('hidden');
     }
   })
 );

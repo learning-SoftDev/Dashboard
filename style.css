@@ -423,17 +423,12 @@ img {
 
 .hidden,
 .active {
-  top: 0;
-  left: 0;
-  pointer-events: none !important;
-  position: absolute !important;
-  max-height: 0 !important;
-  opacity: 0 !important;
+  display: none;
 }
 
 .msg-content {
   font-size: 2.5rem;
-  padding: 3rem;
+  padding: 5rem;
   font-weight: bold;
   color: rgb(0 0 0 / 71%);
   grid-column: msgComingSoon;
